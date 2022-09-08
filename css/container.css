@@ -1,0 +1,39 @@
+@import url(custom-global.css);
+
+.container-principal {
+    margin: 0 auto;
+    width: 360px;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-login {
+    background: #ffffff05;
+    height: 70vh;
+    align-items: center;
+    display: flex;
+    width: 80vw;
+    padding: 1em;
+    border-radius: 0.75em;
+    box-shadow: 1px 1px 5px #00000094;
+    border: 1px solid #0000006b;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.sub-container {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.logo-topo {
+    font-size: 6em;
+    color: var(--corTexto);
+    height: 2em;
+}

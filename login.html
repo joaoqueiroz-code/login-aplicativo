@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Login</title>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/container.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+    <body>
+        <main class="container-principal">
+
+            <section class="container-login">
+
+                <div class="logo-topo">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div class="sub-container">
+                    <label class="form form-label" for="loginUsuario">Usuario</label>
+                    <input id="loginUsuario" maxlength="12" name="loginUsuario" class="form form-input" type="text">
+        
+                    <label class="form form-label" for="loginSenha">Senha</label>
+                    <input id="loginSenha" maxlength="16" name="loginSenha" class="form form-input" type="password">
+                    <a class="form-link" onclick="esqueceuSenha()"><i class="fa-solid fa-lock"></i><small> Esqueci a senha</small></a>
+                </div>
+
+                <div class="sub-container">
+                    <button id="btnLogin" onclick="login()" class="form form-button btn-login" type="button">Login <i class="fa-solid fa-right-to-bracket"></i></button>
+                    <button id="btnInscricao" onclick="login()" class="form form-button btn-inscricao" type="button">Inscreva-se</button>
+                </div>
+
+            </section>
+        </main>
+    </body>
+    <script src="js/login.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</html>

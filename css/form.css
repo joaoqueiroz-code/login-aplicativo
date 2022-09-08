@@ -1,0 +1,55 @@
+@import url(custom-global.css);
+.form {
+    color: var(--corTexto);
+}
+
+.form-input {
+    padding: 0.25em;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    height: 1.75em;
+    background-color: var(--corPrincipal);
+    margin: 0.25em;
+    background: none;
+    font-size: 1.15em;
+}
+
+.form-input:focus {
+    border-color: #e5e5e5;
+}
+
+.form-label {
+    font-size: 1.15em;
+    font-weight: 600;
+    margin: 0.25em;
+}
+
+.form-button {
+    border: 1px solid #04040475;
+    width: 10em;
+    padding: 0.7em;
+    box-shadow: 1px 1px 5px 0px #1e1e1ead;
+    border-radius: 0.4em;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin: 0.25em;
+    cursor: pointer;
+}
+
+.form-link {
+    margin: 0.45em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.form-link small {
+    font-size: 0.95em;
+}
+
+.btn-inscricao {
+    background:#168cf1;
+}
+
+.btn-login {
+    background: #00c208;
+}
